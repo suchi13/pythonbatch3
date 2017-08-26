@@ -1,0 +1,32 @@
+1."""hello world"""
+print "hello world"
+
+2.add 2 no.
+def add(a,b):
+   return a+b
+
+3.quadratic eq
+"""import cmath"""
+def roots(a,b,c):
+	 	r1=(-b+cmath.sqrt(d))/ ( 2*a)
+		r2=(-b-cmath.sqrt(d))/ (2*a)
+	 return r1,r2
+  
+  
+  4.string-dict
+   def string():
+    s="a=b;c=d;e=f;g=h"
+    d=dict()
+    s.split(";")
+    for i in s.split(";"):
+        k,v=i.split("=")
+        print k,v
+        d[k]=v
+    return d
+ 
+d=string()
+print d
+
+
+
+ 
